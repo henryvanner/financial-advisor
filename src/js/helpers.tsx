@@ -25,8 +25,8 @@ function extractExcessNDeficit(currPortfolio: EffectiveAllocation[], desired: Ef
     currPortfolio.forEach((all, index) => {
         m = all.amount || 0;
         n = desired[index].amount || 0;
-        if (m > n) { excess.push({ investmentCategory: all.investmentCategory, amount: m - n }); }
-        if (m < n) { deficit.push({ investmentCategory: desired[index].investmentCategory, amount: n - m }); }
+        if (m > n) { excess.push({ investmentCategory: all.investmentCategory, amount: formatNumber(m - n) }); }
+        if (m < n) { deficit.push({ investmentCategory: desired[index].investmentCategory, amount: formatNumber(n - m) }); }
     });
     return [excess, deficit];
 }

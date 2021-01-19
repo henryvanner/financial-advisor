@@ -50,7 +50,7 @@ function renderBody(
         newAmount = newPortfolio[index].amount ?? '';
         difference = parseFloat(currAmount.toString()) - parseFloat(newAmount.toString());
         thereIsDeficit = difference < 0;
-        difference = isNaN(difference) ? '' : difference.toString();
+        difference = isNaN(difference) ? '' : formatNumber(difference).toString();
 
         return (
             <tr key={index}>
