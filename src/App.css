@@ -1,0 +1,26 @@
+.selected-row {
+    background-color: lightblue !important;
+    font-weight: bold;
+}
+
+input.small {
+    height: 2rem;
+    width: 5rem;
+}
+
+input.amount {
+    text-align: right;
+    display: inline-block;
+}
+
+input.amount.excess {
+    color: green;
+}
+
+input.amount.deficit {
+    color: red;
+}
+
+input.amount.final {
+    color: blue;
+}

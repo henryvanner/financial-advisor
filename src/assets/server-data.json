@@ -1,0 +1,276 @@
+{
+    "InvestmentCategories": [
+        {
+            "id": "1",
+            "name": "Bonds"
+        },
+        {
+            "id": "2",
+            "name": "Large Cap"
+        },
+        {
+            "id": "3",
+            "name": "Mid Cap"
+        },
+        {
+            "id": "4",
+            "name": "Foreign"
+        },
+        {
+            "id": "5",
+            "name": "Small Cap"
+        }
+    ],
+    "Portfolios": [
+        {
+            "riskLevel": 1,
+            "allocations": [
+                {
+                    "proportion": 80,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 2,
+            "allocations": [
+                {
+                    "proportion": 70,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 15,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 15,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 3,
+            "allocations": [
+                {
+                    "proportion": 60,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 15,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 15,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 10,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 4,
+            "allocations": [
+                {
+                    "proportion": 50,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 10,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 5,
+            "allocations": [
+                {
+                    "proportion": 40,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 0,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 6,
+            "allocations": [
+                {
+                    "proportion": 35,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 25,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 5,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 30,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 5,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 7,
+            "allocations": [
+                {
+                    "proportion": 20,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 25,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 25,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 25,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 5,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 8,
+            "allocations": [
+                {
+                    "proportion": 10,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 40,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 20,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 10,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 9,
+            "allocations": [
+                {
+                    "proportion": 5,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 15,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 40,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 25,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 15,
+                    "investmentCategory": "5"
+                }
+            ]
+        },
+        {
+            "riskLevel": 10,
+            "allocations": [
+                {
+                    "proportion": 0,
+                    "investmentCategory": "1"
+                },
+                {
+                    "proportion": 5,
+                    "investmentCategory": "2"
+                },
+                {
+                    "proportion": 25,
+                    "investmentCategory": "3"
+                },
+                {
+                    "proportion": 30,
+                    "investmentCategory": "4"
+                },
+                {
+                    "proportion": 40,
+                    "investmentCategory": "5"
+                }
+            ]
+        }
+    ]
+}
